@@ -5,6 +5,6 @@ path('register/', register, name='register'),
 path('home/',home,name='home'),
 path('confess/',create_confess,name='create_confess'),
 path('myconfession/',my_confession,name='my_confession'),
-path('allconfession/',all_confession,name='all_confession')
-
+path('allconfession/',all_confession,name='all_confession'),
+path('',home,name='initial'))
 ]
