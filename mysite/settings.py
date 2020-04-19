@@ -25,7 +25,7 @@ SECRET_KEY = 'xhl^d9q+46qqjvom&82#69*e+9*v5=uzc=%68hq4+5_hlr4921'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com','mydjangoconfess.herokuapp.com']
 
 
 # Application definition
