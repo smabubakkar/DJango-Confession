@@ -1,0 +1,7 @@
+{%extends "confess/Base.html"%}
+{%block content%}
+<div class="container">
+ {% for item in items%}
+   <p>{{item.confession}}</p>
+{% endfor %}
+{% endblock %}

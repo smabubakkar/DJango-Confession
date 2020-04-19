@@ -1,0 +1,12 @@
+{%extends "confess/Base.html"%}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="container">
+     <form method="POST" class="form-group">
+     {% csrf_token %}
+     {{form | crispy}}
+     <button type="submit" class="btn btn-success">Confess</button>
+
+ </form>
+</div>
+ {% endblock %}
